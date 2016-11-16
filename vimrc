@@ -60,7 +60,7 @@ hi SyntasticStyleErrorSign ctermbg=none ctermfg=DarkCyan guibg=NONE guifg=Cyan
 
 " Syntastic
 let g:syntastic_aggregate_errors = 1
-let g:syntastic_auto_jump = 2
+let g:syntastic_auto_jump = 0 "2
 let g:syntastic_error_symbol = '•'
 let g:syntastic_style_error_symbol = '•'
 let g:syntastic_style_warning_symbol = '•'
@@ -81,3 +81,4 @@ let g:purescript_indent_do = 0
 let g:psc_ide_syntastic_mode = 1
 
 set ruler
+set directory=~/.vimswap,/var/tmp,/tmp

@@ -1,4 +1,9 @@
-export PS1="\e[91m\$? \[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]$ "
+red=$(tput setaf 1)
+cyan=$(tput setaf 6)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+reset=$(tput sgr0)
+export PS1="\[$red\]\$? \[$cyan\]\u\[$reset\]@\[$green\]\h:\[$yellow\]\w\[$reset\]$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
