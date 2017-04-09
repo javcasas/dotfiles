@@ -1,0 +1,9 @@
+red=$(tput setaf 1)
+cyan=$(tput setaf 6)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+reset=$(tput sgr0)
+export PS1="\[$red\]\$? \[$cyan\]\u\[$reset\]@\[$green\]\h:\[$yellow\]\w\[$reset\]$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'

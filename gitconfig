@@ -1,0 +1,7 @@
+[alias]
+	st = status
+[user]
+	name = Javier Casas
+	email = javcasas@gmail.com
+[core]
+	editor = /usr/bin/vim
